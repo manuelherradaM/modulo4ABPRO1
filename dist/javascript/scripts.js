@@ -29,6 +29,60 @@ function tiempo(){
   
   setTimeout(solicitud, 1000);
 }
+
+
+    
+
+
+var inicio = 0; //se inicializa una variable en 0
+
+function aumentar(){ // se crean la funcion y se agrega al evento onclick en en la etiqueta button con id aumentar
+
+var cantidad = document.getElementById('cantidad'); //se obtiene el valor del input, y se incrementa en 1 el valor que tenga.
+var valor = cantidad.value = ++inicio;
+// if  ( valor > 0) {
+  
+//   cantidad.style.backgroundColor= "blue";
+
+  
+//   }
+
+   if (valor > 20){
+  
+    cantidad.style.backgroundColor= "green";
+    }
+
+    else  {
+  
+        cantidad.style.backgroundColor= "white";
+      
+        
+        }
+}
+
+function disminuir(){ // se crean la funcion y se agrega al evento onclick en en la etiqueta button con id disminuir
+
+var cantidad = document.getElementById('cantidad'); //se obtiene el valor del input, y se decrementa en 1 el valor que tenga.
+var valor = cantidad.value = --inicio;
+
+if (valor < 0){
+  
+  cantidad.style.backgroundColor= "red";
+  }
+
+  else  {
+
+      cantidad.style.backgroundColor= "white";
+    
+      
+      }
+
+}
+
+
+
+
+
 /**let namePerson; 
 console.log(namePerson);
 namePerson=prompt("Escriba su nombre");
