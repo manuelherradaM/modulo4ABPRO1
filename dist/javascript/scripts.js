@@ -79,6 +79,23 @@ if (valor < 0){
 
 }
 
+// style botones disminuir
+document.getElementById("disminuir").style.borderColor = "white";
+document.getElementById("disminuir").style.height= "40px";
+document.getElementById("disminuir").style.width= "40px";
+
+// style botones aumentar
+
+document.getElementById("aumentar").style.borderColor = "white";
+document.getElementById("aumentar").style.height= "40px";
+document.getElementById("aumentar").style.width= "40px";
+
+// style cantidad
+
+document.getElementById("cantidad").style.borderColor = "white";
+document.getElementById("cantidad").style.height= "40px";
+document.getElementById("cantidad").style.width= "200px";
+
 
 
 
@@ -133,3 +150,9 @@ setTimeout(()=>{
         nombreDeLaFuncion();
     },1000);
 */
+
+
+
+
+// ejercicio individual 
+
